@@ -10,3 +10,5 @@ while(resultado.length < 6){
 }
 
 console.log(`O resultado do sortei foi ${resultado}`)
+
+
