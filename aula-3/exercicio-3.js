@@ -5,10 +5,9 @@
 
 let resultado = [];
 
-while(resultado.length < 6){ 
-    resultado.push(Math.round(Math.random() * 60))
-}
+while(resultado.length < 6) resultado.push(Math.round(Math.random() * 60))
 
-console.log(`O resultado do sortei foi ${resultado}`)
+
+console.log(`O resultado do sorteio foi ${resultado}`)
 
 
