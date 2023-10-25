@@ -1,0 +1,39 @@
+/*
+    Crie uma função "validarSenha" que recebe uma senha como parâmetro e retorna true se a senha atender aos seguintes critérios, sem utilizar regex:
+
+    Pelo menos 8 caracteres de comprimento.
+    Deve conter pelo menos uma letra maiúscula.
+    Deve conter pelo menos uma letra minúscula.
+    Deve conter pelo menos um número.
+*/
+const senha = "Senha123"
+
+function somaImposto(senha){
+    const tamanho = false
+    const maiuscula = false
+    const minuscula = false
+    senha.length >= 8 ? tamanho = true: tamanho = false
+    for ( i = 0; i < senha.length; i++) {
+        if (senha[i] >= 'A' && senha[i] <= 'Z') {
+          return maiuscula = true;
+        }
+      }
+      return maiuscula = false;
+
+    for ( i = 0; i < senha.length; i++) {
+        if (senha[i] >= 'a' && senha[i] <= 'a') {
+          return maiuscula = true;
+        }
+      }
+    return maiuscula = false;
+
+    for (i = 0; i < senha.length; i++) {
+        if (!isNaN(parseInt(senha[i]))) {
+          return true;
+        }
+      }
+      return false;
+
+    
+
+}
