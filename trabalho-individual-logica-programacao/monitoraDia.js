@@ -1,11 +1,15 @@
-function diaDaSemana1(data) {
-    const dias = ["Domingo", "Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira", "Sábado"];
-    const date = new Date(data);
-    const dia1 = dias[date.getUTCDay()];
-    return dia1;
-}
+//função para monitorar o dia de hoje para validar se é segunda-feira 
+// o metodo getUTCDay retorna o dia da semana em forma de inteiro, partindo do 1, assim a segunda deve retornar o numero 2
+// esse numero é usado como indece na lista "dias" para retornar o nome do dia
 
-const date = "2023-10-23"; 
-const dia1 = diaDaSemana1(date);
+function diaDaSemana() {
+    const diasDaSemana = ["Domingo", "Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira", "Sábado"];
+    const dataAtual = new Date();
+    const diaDaSemana = diasDaSemana[dataAtual.getUTCDay()];
+    return diaDaSemana;
+  }
+  
+  const  diaHoje = diaDaSemana();
 
-module.exports = dia1;
+
+module.exports = diaHoje;

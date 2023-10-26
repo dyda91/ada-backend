@@ -1,3 +1,5 @@
+// codigo fornecido no enunciado não foi alterado
+
 const enviarEmail = (addressee, subject, body) => {
     if (!addressee) {
       return {
