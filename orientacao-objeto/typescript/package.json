@@ -1,0 +1,14 @@
+{
+  "name": "aula-3",
+  "version": "1.0.0",
+  "description": "Primeiro projeto ts da turma 1090",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node ./dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "5.2.2"
+  }
+}
