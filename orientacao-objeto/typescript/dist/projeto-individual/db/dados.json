@@ -1,0 +1,38 @@
+{
+  "livros": [
+    {
+      "titulo": "Harry Potter",
+      "autor": "J.K. Rowling",
+      "anoPublicacao": 1997,
+      "genero": "Fantasia",
+      "emprestado": false,
+      "copias": 1
+    },
+    {
+      "titulo": "Harry Potter2",
+      "autor": "J.K. Rowling2",
+      "anoPublicacao": 1997,
+      "genero": "Fantasia2",
+      "emprestado": false,
+      "copias": 1
+    },
+    {
+      "titulo": "Harry Potter3",
+      "autor": "J.K. Rowling3",
+      "anoPublicacao": 1997,
+      "genero": "Fantasia3",
+      "emprestado": false,
+      "copias": 1
+    },
+    {
+      "titulo": "livro 1",
+      "autor": "autor 1",
+      "anoPublicacao": 1999,
+      "genero": "terror",
+      "emprestado": false,
+      "copias": 1
+    }
+  ],
+  "autores": [],
+  "usuarios": []
+}

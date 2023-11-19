@@ -1,4 +1,4 @@
-import { Livro } from "../livro";
+import { Livro } from "../livro/livro";
 
   interface Autor {
     nome: string;

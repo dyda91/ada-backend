@@ -4,11 +4,14 @@
   "description": "Primeiro projeto ts da turma 1090",
   "main": "index.js",
   "scripts": {
-    "start": "tsc && node ./dist/index.js"
+    "start": "tsc && node ./dist/projeto-individual/index.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "typescript": "5.2.2"
+  },
+  "dependencies": {
+    "@types/node": "^20.9.2"
   }
 }

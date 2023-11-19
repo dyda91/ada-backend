@@ -1,6 +1,6 @@
-import { Autor } from "../autor";
-import { Livro } from "../livro";
-import { Usuario } from "../usuario";
+import { Autor } from "./autor/autor";
+import { Livro } from "./livro/livro";
+import { Usuario } from "./usuario/usuario";
   
   interface Biblioteca {
     livros: Livro[];
@@ -18,10 +18,15 @@ import { Usuario } from "../usuario";
   
     adicionarLivro(livro: Livro) {
       this.livros.push(livro);
+      console.log(`O livro "${livro.titulo}" foi adicionado à biblioteca.`);
     }
   
     removerLivro(livro: Livro) {
       this.livros.splice(this.livros.indexOf(livro), 1);
+    }
+
+    obterLivros(): Livro[] {
+      return this.livros;
     }
   
     adicionarAutor(autor: Autor) {
@@ -47,6 +52,8 @@ import { Usuario } from "../usuario";
     listarLivrosEmprestados(): Livro[] {
       return this.livros.filter((livro: Livro) => livro.emprestado === true);
     }
+
+    
   }
   
-  
+export { Biblioteca }
