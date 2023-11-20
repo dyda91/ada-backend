@@ -4,14 +4,19 @@
   "description": "Primeiro projeto ts da turma 1090",
   "main": "index.js",
   "scripts": {
-    "start": "tsc && node ./dist/projeto-individual/index.js"
+    "start": "tsc && node ./dist/projeto-individual/index.js",
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/jest": "^29.5.8",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
     "typescript": "5.2.2"
   },
   "dependencies": {
-    "@types/node": "^20.9.2"
+    "@types/node": "^20.9.2",
+    "jest-preset-typescript": "^1.2.0"
   }
 }

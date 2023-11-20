@@ -32,4 +32,5 @@ imprimirDetalhesCarro(carro1);
   
 console.log("Detalhes do Carro 2:");
 imprimirDetalhesCarro(carro2);
-  
+
+export { Carro }

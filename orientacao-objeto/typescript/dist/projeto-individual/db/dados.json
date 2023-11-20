@@ -9,30 +9,89 @@
       "copias": 1
     },
     {
-      "titulo": "Harry Potter2",
-      "autor": "J.K. Rowling2",
-      "anoPublicacao": 1997,
-      "genero": "Fantasia2",
+      "titulo": "ddddddd",
+      "autor": "Leandro",
+      "anoPublicacao": 1960,
+      "genero": "terror",
       "emprestado": false,
       "copias": 1
     },
     {
-      "titulo": "Harry Potter3",
-      "autor": "J.K. Rowling3",
-      "anoPublicacao": 1997,
-      "genero": "Fantasia3",
+      "titulo": "dfdsfsf",
+      "autor": "Teste2",
+      "anoPublicacao": 1962,
+      "genero": "dsfsf",
       "emprestado": false,
       "copias": 1
     },
     {
-      "titulo": "livro 1",
-      "autor": "autor 1",
-      "anoPublicacao": 1999,
+      "titulo": "sadadsa",
+      "autor": "asfaf",
+      "anoPublicacao": 196,
+      "genero": "asdadas",
+      "emprestado": false,
+      "copias": 1
+    },
+    {
+      "titulo": "asdsadadas",
+      "autor": "adaasdad",
+      "anoPublicacao": 16266,
+      "genero": "asdadsadas",
+      "emprestado": false,
+      "copias": 1
+    },
+    {
+      "titulo": "oi",
+      "autor": "eu",
+      "anoPublicacao": 1960,
       "genero": "terror",
       "emprestado": false,
       "copias": 1
     }
   ],
-  "autores": [],
+  "autores": [
+    {
+      "nome": "eu",
+      "dataNascimento": null,
+      "nacionalidade": "br",
+      "livros": []
+    },
+    {
+      "nome": "eu mesmo",
+      "dataNascimento": null,
+      "nacionalidade": "br",
+      "livros": []
+    },
+    {
+      "nome": "Edjalma",
+      "dataNascimento": null,
+      "nacionalidade": "br",
+      "livros": []
+    },
+    {
+      "nome": "Leandro",
+      "dataNascimento": "2000-09-14T00:00:00.000Z",
+      "nacionalidade": "br",
+      "livros": []
+    },
+    {
+      "nome": "Teste2",
+      "dataNascimento": null,
+      "nacionalidade": "dfdssfs",
+      "livros": []
+    },
+    {
+      "nome": "asfaf",
+      "dataNascimento": "1991-02-02T00:00:00.000Z",
+      "nacionalidade": "asfa",
+      "livros": []
+    },
+    {
+      "nome": "adaasdad",
+      "dataNascimento": "1991-03-22T00:00:00.000Z",
+      "nacionalidade": "asdasd",
+      "livros": []
+    }
+  ],
   "usuarios": []
 }
