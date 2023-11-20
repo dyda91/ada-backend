@@ -25,7 +25,7 @@ Para rodar o teste de um único exercício, execute o comando:
 npm test <nome_do_arquivo>
 Execução do trabalho individual
 
-Para executar o trabalho individual, navegue até a pasta raiz e execute os seguintes comandos:
+Para executar o trabalho individual, navegue até a pasta raiz ( /typescript ) e execute os seguintes comandos:
 
 npm install
 tsc
