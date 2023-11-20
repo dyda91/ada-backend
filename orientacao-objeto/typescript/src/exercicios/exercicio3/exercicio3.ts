@@ -32,6 +32,9 @@ class Calculadora {
     }
   
     divisao(x: number, y: number): number {
+      if (y === 0) {
+        throw new Error('Divisão por zero');
+      }
       return this._divisao(x, y);
     }
   

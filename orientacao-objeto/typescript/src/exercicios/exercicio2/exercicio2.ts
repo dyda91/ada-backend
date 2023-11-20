@@ -43,4 +43,4 @@ class Animal {
   cachorro.emitirSom();
   passaro.emitirSom();
 
-  export { Cachorro, Passaro }
+  export { Animal, Cachorro, Passaro }

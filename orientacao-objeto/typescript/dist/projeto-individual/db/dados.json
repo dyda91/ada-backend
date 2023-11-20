@@ -51,18 +51,6 @@
   ],
   "autores": [
     {
-      "nome": "eu",
-      "dataNascimento": null,
-      "nacionalidade": "br",
-      "livros": []
-    },
-    {
-      "nome": "eu mesmo",
-      "dataNascimento": null,
-      "nacionalidade": "br",
-      "livros": []
-    },
-    {
       "nome": "Edjalma",
       "dataNascimento": null,
       "nacionalidade": "br",
@@ -73,25 +61,13 @@
       "dataNascimento": "2000-09-14T00:00:00.000Z",
       "nacionalidade": "br",
       "livros": []
-    },
-    {
-      "nome": "Teste2",
-      "dataNascimento": null,
-      "nacionalidade": "dfdssfs",
-      "livros": []
-    },
-    {
-      "nome": "asfaf",
-      "dataNascimento": "1991-02-02T00:00:00.000Z",
-      "nacionalidade": "asfa",
-      "livros": []
-    },
-    {
-      "nome": "adaasdad",
-      "dataNascimento": "1991-03-22T00:00:00.000Z",
-      "nacionalidade": "asdasd",
-      "livros": []
     }
   ],
-  "usuarios": []
+  "usuarios": [
+    {
+      "nome": "Edjalma",
+      "email": "edjalma@gmail.com",
+      "livrosEmprestados": []
+    }
+  ]
 }

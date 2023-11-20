@@ -12,8 +12,11 @@ class Usuario {
         livro.emprestar();
     }
     devolverLivro(livro) {
-        this.livrosEmprestados.splice(this.livrosEmprestados.indexOf(livro), 1);
-        livro.devolver();
+        const index = this.livrosEmprestados.indexOf(livro);
+        if (index !== -1) {
+            this.livrosEmprestados.splice(index, 1);
+            livro.devolver();
+        }
     }
 }
 exports.Usuario = Usuario;

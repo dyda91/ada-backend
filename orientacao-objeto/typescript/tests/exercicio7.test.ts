@@ -7,4 +7,18 @@ describe('ConfiguracaoApp', () => {
 
     expect(configuracao1).toBe(configuracao2);
   });
+  it('deve configurar e obter o nome corretamente', () => {
+    const configuracao = ConfiguracaoApp.instancia;
+    configuracao.nome = 'Novo nome';
+    expect(configuracao.nome).toBe('Novo nome');
+  });
+  
+  it('deve configurar e obter a versão corretamente', () => {
+    const configuracao = ConfiguracaoApp.instancia;
+    configuracao.versao = '2.0.0';
+    expect(configuracao.versao).toBe('2.0.0');
+  });
 });
+
+
+  

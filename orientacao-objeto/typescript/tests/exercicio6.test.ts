@@ -11,4 +11,11 @@ describe('ContaBancaria', () => {
     const conta = new ContaBancaria(100);
     expect(() => conta.sacar(150)).toThrow(Error);
   });
+
+  it('deve permitir depósitos corretos', () => {
+    const conta = new ContaBancaria(100);
+    conta.depositar(50);
+    expect(conta.getSaldo()).toBe(150);
+  });
+  
 });
